@@ -9,6 +9,8 @@ const WordsSchema = new Schema(
     name: { type: String, required: true, max: 100 },
     price: { type: Number, required: true, max: 100 },
     unit: { type: String, required: true, max: 100 },
+    time: { type: String, required: true, max: 100 },
+    benefit: { type: String, required: true, max: 100 },
   },
   { collection: 'words' }
 );
